@@ -1,0 +1,29 @@
+<!-- fragment_rate_us.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center">
+
+<!-- Add any other UI elements you want for the RateUsFragment here -->
+
+<!-- TextView to display a message -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Please rate our app!"
+    android:fontFamily="sans-serif-condensed"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginBottom="16dp"/>
+
+<!-- Button to open the link in a browser -->
+<Button
+    android:id="@+id/rateNowButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rate Now"
+    android:onClick="openLinkInBrowser" />
+
+</LinearLayout>

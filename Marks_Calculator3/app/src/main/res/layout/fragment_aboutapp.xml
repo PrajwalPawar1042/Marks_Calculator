@@ -1,0 +1,112 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:layout_width="395dp"
+            android:layout_height="285dp"
+            android:layout_marginBottom="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/pawartechnologiesjpgmin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Marks Calculator app, developed by Pawar Tech, a leading software development company. We strive to provide innovative and user-friendly solutions to make your academic journey easier."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Functionality:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Grade to Percentage Conversion: Easily convert your grades to percentages using our intuitive interface. Simply input your grades for different subjects, and the app will calculate the average percentage for you."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Percentage to Grade Conversion: Need to know your grade based on a percentage? Our app can help you convert percentages to grades, allowing you to track your academic progress accurately."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. GPA Calculator: Calculate your Grade Point Average (GPA) by entering your course credits and corresponding grades. Stay on top of your academic performance with ease."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Subject-wise Tracking: Keep track of your grades and percentages for individual subjects. Our app allows you to input and store marks for each subject, enabling you to monitor your progress throughout the semester."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed by Pawar Tech:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Marks Calculator app is developed by Pawar Tech, a reputable software development company dedicated to delivering high-quality and user-friendly applications. Led by Mr. Prajwal Pawar, our team of skilled developers has put their expertise and passion into creating this app."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At Pawar Tech, we are committed to providing innovative solutions that enhance the user experience and simplify complex tasks. We value user feedback and continuously work on improving our products to meet the evolving needs of our users."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We hope you find the Marks Calculator app useful in managing your grades and tracking your academic performance. If you have any suggestions or feedback, please feel free to reach out to us. Thank you for choosing our app!"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- The Pawar Tech Team"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

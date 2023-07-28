@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_percent_24"
+            android:title="Percentage Calculator" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_percent_24"
+            android:title="Weighted Marks " />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_percent_24"
+            android:title="CGPA" />
+        <item
+            android:id="@+id/nav_sgpa"
+            android:icon="@drawable/baseline_percent_24"
+            android:title="SGPA"/>
+        <item
+            android:id="@+id/nav_gtop"
+            android:icon="@drawable/baseline_percent_24"
+            android:title="Grade to Percantage"/>
+        <item
+            android:id="@+id/nav_nc"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="Normal Calculator"/>
+        <item
+            android:id="@+id/nav_birthday"
+            android:icon="@drawable/baseline_cake_24"
+            android:title="Age Calculator"/>
+
+
+    </group>
+
+    <item
+        android:title=" Help us By">
+        <menu>
+
+            <item
+                android:id="@+id/nav_rta"
+                android:icon="@drawable/baseline_star_rate_24"
+                android:title="Rate This App"/>
+            <item
+                android:id="@+id/nav_stta"
+                android:icon="@drawable/baseline_send_24"
+                android:title="Share This app"/>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/baseline_info_24"
+                android:title="About us"/>
+
+        </menu>
+    </item>
+    <item
+        android:title="Upcoming Features">
+        <menu>
+
+            <item
+                android:id="@+id/nav_upcoming_features"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Logout"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/darkLightSwitch"
+        android:title="MODE"
+        android:icon="@drawable/baseline_dark_mode_24"
+        app:showAsAction="always"
+        app:actionLayout="@layout/switch_dark_light_mode" /></menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.marks_calculator3.ui.home.HomeFragment"
+        android:label="Percentage Calculator"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_stta"
+        android:name="com.example.marks_calculator3.ui.stta.sttaFragment"
+        android:label="Percentage Calculator"
+        tools:layout="@layout/fragment_stta" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.marks_calculator3.ui.gallery.GalleryFragment"
+        android:label="Weighted Subject Calculator"
+
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.marks_calculator3.ui.slideshow.SlideshowFragment"
+        android:label="CGPA Calculator"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_sgpa"
+        android:name="com.example.marks_calculator3.sgpaFragment"
+        android:label="SGPA Calculator"
+        tools:layout="@layout/fragment_sgpa" />
+
+    <fragment
+        android:id="@+id/nav_rta"
+        android:name="com.example.marks_calculator3.ui.rta.rtaFragment"
+        tools:layout="@layout/fragment_rta"/>
+    <fragment
+        android:id="@+id/nav_gtop"
+        android:name="com.example.marks_calculator3.gradetopercentageFragment"
+        android:label="Grade to Percentage Calculator"
+        tools:layout="@layout/fragment_gradetopercentage" />
+
+    <fragment
+        android:id="@+id/nav_nc"
+        android:name="com.example.marks_calculator3.normalcalculatorFragment"
+        android:label="Normal Calculator"
+        tools:layout="@layout/fragment_normalcalculator" />
+
+    <fragment
+        android:id="@+id/nav_birthday"
+        android:name="com.example.marks_calculator3.birthdayFragment"
+        android:label="Age Calculator"
+        tools:layout="@layout/fragment_birthday" />
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.marks_calculator3.aboutappFragment"
+        android:label="About us"
+        tools:layout="@layout/fragment_aboutapp" />
+
+
+
+
+
+</navigation>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Marks_Calculator3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_age_format">Current Age: %1$d years (as of %2$s)</string>
+    <string name="days_to_birthday_format">Days to Next Birthday: %1$d days (on %2$s)</string>
+    <string name="age_result_format">Age: %1$d years</string>
+    <string name="git_repo_id">https://github.com/PrajwalPawar1042/Marks_Calculator.git</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="grade_calculator">Grade_Calculator</string>
+    <string name="weighted_grading">Weighted Grading</string>
+    <string name="total_marks">Total Marks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

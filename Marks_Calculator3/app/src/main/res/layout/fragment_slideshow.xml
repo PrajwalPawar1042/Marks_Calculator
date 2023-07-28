@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/text_cgpa_calculator"
+        android:layout_width="370dp"
+        android:layout_height="74dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="CGPA Calculator"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_enter_cgpa"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text="Enter CGPA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_cgpa"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_input"
+        android:hint="Enter CGPA"
+        android:inputType="numberDecimal"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="450dp"
+        android:layout_height="51dp"
+       android:layout_marginRight="10dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Result:-"
+
+        android:textSize="25sp" />
+
+</LinearLayout>
+

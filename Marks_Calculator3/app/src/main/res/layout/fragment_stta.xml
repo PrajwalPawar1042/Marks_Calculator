@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/githubLinkTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GitHub Repository:"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Add a Button for the GitHub link -->
+    <Button
+        android:id="@+id/githubLinkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open GitHub"
+        android:textSize="16sp"
+        android:background="@drawable/button_background"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+
+        android:layout_gravity="center_horizontal"
+        android:onClick="openGitHubLink"
+        />
+
+
+    <TextView
+        android:id="@+id/githubLinkTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Link:"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:id="@+id/sendLinkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openAppLink"
+        android:text="App Link" />
+
+
+</LinearLayout>
